@@ -14,4 +14,7 @@ dvc remote modify --local ssh-storage-name password 123456789
 
 # Local config
 dvc remote add --default myremote /path/to/remote
+
+# Change remote
+dvc remote default
 ```
