@@ -17,4 +17,8 @@ dvc remote add --default myremote /path/to/remote
 
 # Change remote
 dvc remote default
+
+# Errors
+- configuration error - config file error: expected 'url' for dictionary value @ data['remote']['m38']
+dvc remote remove m38 --local
 ```
