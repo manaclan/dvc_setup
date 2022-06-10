@@ -21,4 +21,9 @@ dvc remote default
 # Errors
 - configuration error - config file error: expected 'url' for dictionary value @ data['remote']['m38']
 dvc remote remove m38 --local
+
+- ERROR: unexpected error - libffi.so.7: cannot open shared object file: No such file or directory
+https://askubuntu.com/questions/1289782/pygobject-venv-and-ubuntu-20-10-importerror-libffi-so-7-cannot-open-shared-o
+Actually we dont need to install the lib, it just read-write permission problem on the storage directory
 ```
+
