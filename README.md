@@ -4,6 +4,7 @@ dvc add stored_models
 git rm -r --cached 'stored_models'\n            
 git commit -m "stop tracking stored_models"
 git add .gitignore stored_models.dvc
+echo ".dvc" >> .gitignore
 
 (you can visit .dvc/config file after run all config commands)
 # SSH Config
